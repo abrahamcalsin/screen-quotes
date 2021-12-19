@@ -16,7 +16,7 @@ export default function Home() {
       <GithubCorner
         direction="right-0"
         fillColor="text-indigo-100"
-        customHref="https://github.com/"
+        customHref="https://github.com/abrahamcalsin/screen-quotes"
         bannerColor="text-indigo-900"
       />
       <RandomQuote />
