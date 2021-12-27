@@ -1,6 +1,6 @@
 {
-  "name": "random-quotes",
-  "private": true,
+  "name": "screen-quotes",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,7 +8,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/html2canvas": "^1.0.0",
     "downloadjs": "^1.4.7",
     "html-to-image": "^1.9.0",
     "next": "12.0.7",
