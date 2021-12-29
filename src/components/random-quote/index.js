@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import * as htmlToImage from 'html-to-image'
 import download from 'downloadjs'
+import { getAllQuotes } from '../../services/quotes/get-all-quotes'
 
 export const RandomQuote = () => {
 	const [data, setData] = useState(null)
 
 	const updateQuote = () => {
-		fetch('https://api.quotable.io/random')
-			.then((res) => res.json())
-			.then((data) => {
-				setData(data)
-			})
+		getAllQuotes().then((data) => {
+			setData(data)
+		})
 	}
 
 	useEffect(() => {
