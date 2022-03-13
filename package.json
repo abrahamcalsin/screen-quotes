@@ -1,6 +1,8 @@
 {
 	"name": "screen-quotes",
-	"private": false,
+	"private": true,
+	"author": "Abraham Calsin",
+	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
