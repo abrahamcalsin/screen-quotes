@@ -35,7 +35,7 @@ export const RandomQuote = () => {
 				</h1>
 			</div>
 			<div
-				className="relative -z-10 grid place-content-center h-screen w-full  bg-blue-700/5"
+				className="relative -z-10 grid place-content-center h-screen w-full"
 				id="box-quote"
 			>
 				<div className="max-w-2xl flex gap-4 bg-indigo-100 shadow-2xl shadow-indigo-900/20 text-indigo-900/70 text-lg border border-gray-100 px-7 py-7 rounded-lg">
