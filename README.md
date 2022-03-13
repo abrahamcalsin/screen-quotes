@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SCREEN QUOTES
 
-## Getting Started
+Screen Quotes is a simple website, which allows you to capture any famous quote, download it without hassle and be able to share it with your friends. 🎉 **[WEB](https://screen-quotes.abrahamcalsin.com)**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## What is inside? 🔨
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is developed with the following tools:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org)
+- [TailwindCss](https://tailwindcss.com)
+- [React.js](https://reactjs.org)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<details>
+<summary><b>API: 📂</b></summary>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Quotable API](https://api.quotable.io/random)
 
-## Learn More
+</details>
 
-To learn more about Next.js, take a look at the following resources:
+<details>
+<summary><b>Packages: 📦</b></summary>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [react-github-fork-banner](https://www.npmjs.com/package/react-github-fork-banner)
+- [html-to-image](https://www.npmjs.com/package/html-to-image)
+- [downloadjs](https://www.npmjs.com/package/downloadjs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+</details>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License 🔑
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License.](https://github.com/abrahamcalsin/screen-quotes/blob/main/LICENSE)
