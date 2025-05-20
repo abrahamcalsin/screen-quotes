@@ -27,7 +27,7 @@ export const RandomQuote = () => {
   return (
     <>
       <div
-        className="relative grid place-content-center h-screen w-full"
+        className="relative grid place-content-center h-screen w-full -z-[20]"
         ref={boxQuoteRef}
       >
         {isLoading ? (
